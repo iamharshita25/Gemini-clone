@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Playfair Display;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 2s;
+  
+}
+.app-container{
+  display: flex;
+  width: 100%;
+}
+
+.Main{
+  flex-grow: 1;
+  
+}
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
